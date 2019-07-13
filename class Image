@@ -1,11 +1,11 @@
 class Image
 
-  def initialize (picture)
-    @picture = picture
+  def initialize (array)
+    @array= array
   end
 
   def output_image
-    @picture.each do |data|
+    @array.each do |data|
       puts data.join
     end
   end
